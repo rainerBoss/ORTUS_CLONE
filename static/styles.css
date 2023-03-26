@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.settings-bar{
+    height: 20px;
+    width: 100%;
+    background-color: teal;
+    padding: 0px;
+}
+
+.logo-bar{
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.logo-bar img{
+    height: 100%;
+    display: inline-block;
+}
+
+.logo-bar .logo-triangle{
+    float: right;
+    height: 0;
+    width: 0;
+    border: 50px solid white;
+    border-left-color: lightgray;
+    border-top-color: lightgray;
+}
+
+.logo-bar-right{
+    background-color: white;
+    float: right;
+    height: 100%;
+}
+
+.logo-bar .search{
+    height: 30px;
+    padding: 20px;
+}
+
+.search .search-field{
+    height: 100%;
+    float: left;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.search .search-button{
+    float: right;
+    background-color: teal;
+    color: white;
+    height: 100%;
+    width: 100px;
+    margin: 0px;
+    cursor: pointer;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.nav-bar{
+    height: 30px;
+    width: 100%;
+    background-color: teal;
+}
+
+.nav-bar nav{
+    height: 100%;
+}
+
+.nav-bar li{
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav-bar a p{
+    height: 100%;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-bar p:hover{
+    background-color: lightgray;
+    color: black;
+}
+.page{
+
+
+}
